@@ -1,0 +1,23 @@
+{
+    "skill": [{
+            "id": 1,
+            "name": "HTML",
+            "img": "https://i.ibb.co/Gx3cYqp/html.png"
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "img": "https://i.ibb.co/1QyYTVW/css3.png"
+        },
+        {
+            "id": 3,
+            "name": "JS",
+            "img": "https://i.ibb.co/gdG91SN/js.png"
+        },
+        {
+            "id": 3,
+            "name": "React",
+            "img": "https://i.ibb.co/j8WNszQ/react.png"
+        }
+    ]
+}
