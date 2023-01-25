@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Styles from './navbar.module.css'
 import Skill from '../Skill/Skill'
 import { HomePage } from '../home/HomePage'
+import Projects from '../projects/Projects'
 
 export function Navbar() {
   return (
@@ -30,21 +31,24 @@ export function Navbar() {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 hover:bg-gray-900"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-gray-900"
               >
                 <li>
                   <Link to="/">Home</Link>
                   <Link to="skill">Skill</Link>
-                  <Link to="Portfolio">Proyectos</Link>
+                  <Link to="projects">Proyectos</Link>
                   <Link to={'AboutMe'}>Sobre mi</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="navbar-center">
-            <a className="btn btn-ghost normal-case text-xl text-red-500 border-amber-400">
+            <Link
+              to="/"
+              className="btn btn-ghost normal-case text-xl text-red-500 border-amber-400"
+            >
               Cristian Garcia
-            </a>
+            </Link>
           </div>
           <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">
@@ -86,6 +90,7 @@ export function Navbar() {
         </div>
         <Routes>
           <Route path="skill" element={<Skill />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>

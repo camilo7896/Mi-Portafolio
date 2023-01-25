@@ -50,7 +50,7 @@ export function Footer() {
           </div>
           <div>
             <p className="text-amber-400">
-              Copyright © 2023 - All right reserved by ACME Industries Ltd
+              Copyright © 2023 - Cristian Camilo Garcia Gutierrez
             </p>
           </div>
         </footer>
