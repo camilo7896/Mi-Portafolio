@@ -10,7 +10,7 @@ export default function ProjectState() {
       <div>
         <h1 className="m-11 text-4xl">Project</h1>
 
-        <p className="ml-16">
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           praesentium, enim non fuga ullam aliquam quidem suscipit! Ad itaque,
           odit, nam facilis architecto voluptatibus nulla suscipit maiores
