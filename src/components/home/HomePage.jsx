@@ -16,7 +16,9 @@ export function HomePage() {
               </h1>
               <p className="py-6">front end developer</p>
               <button className="btn text-red-900 bg-amber-400">
-                Contact me
+                <a href="https://api.whatsapp.com/send?phone=+573132361040&text=Hola estoy interesado en tu perfil.">
+                  Contact me
+                </a>
               </button>
             </div>
           </div>
