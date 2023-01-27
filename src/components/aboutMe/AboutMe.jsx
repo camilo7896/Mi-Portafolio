@@ -31,8 +31,14 @@ function AboutMe(props) {
           {/*********************** End Text of about ***********************/}
         </div>
         <div className="mb-10">
-          <button className="btn glass w-40 m-6">Github</button>
-          <button className="btn glass w-40  m-6">Linkendin</button>
+          <button className="btn glass w-40 m-6">
+            <a href="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">Github</a>
+          </button>
+          <button className="btn glass w-40  m-6">
+            <a href="https://www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/">
+              Linkendin
+            </a>
+          </button>
         </div>
       </div>
     </div>
