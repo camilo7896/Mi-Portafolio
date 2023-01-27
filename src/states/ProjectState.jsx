@@ -10,7 +10,7 @@ export default function ProjectState() {
       <div>
         <h1 className="m-11 text-4xl">Project</h1>
 
-        <p>
+        <p className="ml-16">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           praesentium, enim non fuga ullam aliquam quidem suscipit! Ad itaque,
           odit, nam facilis architecto voluptatibus nulla suscipit maiores
@@ -45,8 +45,18 @@ export default function ProjectState() {
                 </h2>
                 <p>{item.description}</p>
                 <div className="card-actions justify-center">
-                  <div className="badge badge-outline ">Github</div>
-                  <div className="badge badge-outline">Demo</div>
+                  <div className="badge badge-outline ">
+                    {' '}
+                    <a href={item.gitHub} target="_blank">
+                      View GitHub
+                    </a>
+                  </div>
+                  <div className="badge badge-outline">
+                    {' '}
+                    <a href={item.despliegue} target="_blank">
+                      View Project
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
