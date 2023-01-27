@@ -32,10 +32,15 @@ function AboutMe(props) {
         </div>
         <div className="mb-10">
           <button className="btn glass w-40 m-6">
-            <a href="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">Github</a>
+            <a href="https://github.com/camilo7896" target="_blank">
+              Github
+            </a>
           </button>
           <button className="btn glass w-40  m-6">
-            <a href="https://www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/">
+            <a
+              href="https://www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/"
+              target="_blank"
+            >
               Linkendin
             </a>
           </button>
