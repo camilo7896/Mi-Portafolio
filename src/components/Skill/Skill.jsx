@@ -21,7 +21,7 @@ export default function Skill() {
               <div className="flex justify-around">
                 <div>
                   <div className="flex justify-center">
-                    <img className="w-20" src={item.img} alt={item.name} />
+                    <img id='icon_skill' className="w-20 animate-spin mr-3" src={item.img} alt={item.name} />
                   </div>
                 </div>
               </div>
