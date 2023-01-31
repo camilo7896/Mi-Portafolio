@@ -2,4 +2,8 @@
 
 let iconSkill = document.getElementById("icon_skill");
 
-iconSkill.addEventListener("mouseover", ()=>)
+iconSkill.addEventListener("mouseover",myFuncion);
+
+ export default function myFuncion(){
+    alert('Hello')
+}
