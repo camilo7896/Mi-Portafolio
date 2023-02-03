@@ -6,6 +6,7 @@ import Skill from '../Skill/Skill'
 import { HomePage } from '../home/HomePage'
 import Projects from '../projects/Projects'
 import AboutMe from '../aboutMe/AboutMe'
+import Contact from '../contact/Contact'
 
 export function Navbar() {
   return (
@@ -39,6 +40,7 @@ export function Navbar() {
                   <Link to="skill">Skill</Link>
                   <Link to="projects">Projects</Link>
                   <Link to={'AboutMe'}>About Me</Link>
+                  <Link to={'Contact'}>Contact</Link>
                 </li>
               </ul>
             </div>
@@ -54,6 +56,7 @@ export function Navbar() {
           <div className="navbar-end"></div>
         </div>
         <Routes>
+          <Route path="contact" element={<Contact />} />
           <Route path="skill" element={<Skill />} />
           <Route path="projects" element={<Projects />} />
           <Route path="AboutMe" element={<AboutMe />} />

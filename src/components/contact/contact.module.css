@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm h1 {
+    font-size: 30px;
+}
+
+.containerForm input {
+    border: 3px solid #FBBF23;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+}
+
+.containerForm textarea {
+    border: 3px solid #FBBF23;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.btnButton {
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 0 2px #FBBF23, 0 0 10px #FBBF23, 0 0 20px #FBBF23;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.btnButton:hover {
+    box-shadow: 0 0 10px #FBBF23, 0 0 40px #FBBF23, 0 0 80px #FBBF23;
+}
+
+.iconMail {
+    display: none;
+}
+
+@media only screen and (min-width: 700px) {
+    .containerForm {
+        width: 30%;
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+    .containerForm form {
+        display: flex;
+        flex-direction: column;
+    }
+    .iconMail {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+    }
+    .iconMail img {
+        width: 50%;
+    }
+}

@@ -8,7 +8,7 @@ function AboutMe(props) {
         {/*********************** Title ***********************/}
         <div>
           <h1 className="mt-8 text-2xl">Aboutme</h1>
-        </div> 
+        </div>
         <br />
         <div className={Styles.subContainer}>
           {/********************Photo profile ***********************/}
@@ -31,16 +31,16 @@ function AboutMe(props) {
           {/*********************** End Text of about ***********************/}
         </div>
         <div className="mb-10">
-            <a href="https://github.com/camilo7896" target="_blank">
-          <button className="btn glass w-40 m-6">
-          Github
-          </button>
+          <a href="https://github.com/camilo7896" target="_blank">
+            <button className="btn glass w-40 m-6">Github</button>
           </a>
-            <a href="https://www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/" target="_blank">
-          <button className="btn glass w-40  m-6">
-              Linkedin
-          </button>
-           </a>
+
+          <a
+            href="https://www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/"
+            target="_blank"
+          >
+            <button className="btn glass w-40  m-6">Linkedin</button>
+          </a>
         </div>
       </div>
     </div>
