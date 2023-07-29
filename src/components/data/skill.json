@@ -2,22 +2,38 @@
     "skill": [{
             "id": 1,
             "name": "HTML",
-            "img": "https://i.ibb.co/Gx3cYqp/html.png"
+            "img": "https://i.ibb.co/Gx3cYqp/html.png",
+            "description":"Creación de estructuras semánticas y accesibles para garantizar la usabilidad y el rendimiento de las páginas web."
         },
         {
             "id": 2,
             "name": "CSS",
-            "img": "https://i.ibb.co/1QyYTVW/css3.png"
+            "img": "https://i.ibb.co/1QyYTVW/css3.png",
+            "description":"Diseño y estilización de interfaces modernas y responsivas, con un enfoque en la estética y la coherencia visual."
         },
         {
             "id": 3,
-            "name": "JS",
-            "img": "https://i.ibb.co/gdG91SN/js.png"
+            "name": "JavaScript",
+            "img": "https://i.ibb.co/gdG91SN/js.png",
+            "description":"Implementación de funcionalidades interactivas y efectos dinámicos para mejorar la interacción del usuario con el sitio web."
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "React",
-            "img": "https://i.ibb.co/j8WNszQ/react.png"
+            "img": "https://i.ibb.co/j8WNszQ/react.png",
+            "description":": Desarrollo de componentes reutilizables para construir interfaces de usuario eficientes y de alto rendimiento."
+        },
+        {
+            "id": 5,
+            "name": "Angular",
+            "img": "https://i.ibb.co/5xR2GGZ/kisspng-angularjs-rxjs-angular-november-meetup-javascript-building-applications-with-angular-materia.png",
+            "description":": Conocimientos en el desarrollo de aplicaciones web utilizando el framework Angular."
+        },
+        {
+            "id": 6,
+            "name": "Sql",
+            "img": "https://i.ibb.co/20rdcnY/kisspng-logo-mysql-database-phpmyadmin-mysql-digital-agency-maidenhead-web-agency-uk-5b6475c37dee49.png",
+            "description":": Manejo de bases de datos relacionales para almacenar y recuperar datos de manera eficiente."
         }
     ]
 }

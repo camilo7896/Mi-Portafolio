@@ -12,7 +12,7 @@ export function HomePage() {
             />
             <div>
               <h1 className="text-5xl font-bold text-amber-400 mb-4">
-                Hello ! my name is Cristian Garcia
+                Hola ! mi nombres es Cristian Garcia
               </h1>
               <p className="py-6">front end developer</p>
               <button className="btn text-red-900 bg-amber-400">
@@ -20,7 +20,7 @@ export function HomePage() {
                   href="https://api.whatsapp.com/send?phone=+573132361040&text=Hola estoy interesado en tu perfil."
                   target="_blank"
                 >
-                  Contact me
+                  Contactame
                 </a>
               </button>
             </div>

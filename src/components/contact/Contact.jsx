@@ -20,15 +20,15 @@ export default function Contact() {
     <>
       <div className={Styles.container}>
         <div className={Styles.containerForm}>
-          <h1>Contac Me</h1>
+          <h1>Contactame</h1>
           <form onSubmit={sendEmail}>
-            <input placeholder="Name" type="text" name="user_name" />
+            <input placeholder="Nombre" type="text" name="user_name" />
 
-            <input placeholder="Email" type="email" name="user_email" />
-            <p>Message</p>
-            <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+            <input placeholder="Correo electronico" type="email" name="user_email" />
+            <p>Mensaje</p>
+            <textarea placeholder='Redacta tu mensaje aqui...' name="user_message" id="" cols="30" rows="10"></textarea>
             <div className={Styles.btn}>
-              <button className={Styles.btnButton}>Send</button>
+              <button className={Styles.btnButton}>Enviar</button>
             </div>
           </form>
         </div>

@@ -9,13 +9,11 @@ export default function ProjectState() {
     <>
       <div>
         <h1 className="m-11 text-4xl">Projects</h1>
-
-        <p>
-        These are some of the projects I have done throughout my apprenticeship. applying each of the acquired knowledge.
-        </p>
+        <p className='ml-5'>
+        A lo largo de mi proceso de aprendizaje, he tenido la oportunidad de trabajar en diversos proyectos, donde he aplicado los conocimientos adquiridos y desarrollado mis habilidades. Me gustaría compartir algunos de estos proyectos contigo:            </p>
         {projectList.Projects.map((item) => {
           return (
-            <div className="flex flex-row flex-wrap justify-center m-20">
+            <div key={item.id} className="flex flex-row flex-wrap justify-center m-20">
               <div className="rounded-md">
                 <figure>
                   <img className="w-96" src={item.img} alt={item.name} />

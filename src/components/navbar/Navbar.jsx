@@ -36,11 +36,11 @@ export function Navbar() {
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-gray-900"
               >
                 <li>
-                  <Link to="/">Home</Link>
-                  <Link to="skill">Skill</Link>
-                  <Link to="projects">Projects</Link>
-                  <Link to={'AboutMe'}>About Me</Link>
-                  <Link to={'Contact'}>Contact</Link>
+                  <Link to="/">Inicio</Link>
+                  <Link to="skill">Habilidad</Link>
+                  <Link to="projects">Proyectos</Link>
+                  <Link to={'AboutMe'}>Sobre mi</Link>
+                  <Link to={'Contact'}>Contacto</Link>
                 </li>
               </ul>
             </div>

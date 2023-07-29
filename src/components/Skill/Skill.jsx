@@ -7,32 +7,41 @@ export default function Skill() {
   return (
     <>
       <div className="max-h-max">
-        <h1 className="mt-8 text-2xl">Skill's</h1>
-        <div className="m-24">
-          <p>
-            I like to code, build websites, from scratch. Bringing sites to
-            life. My skills are the following: HTML, CSS, JS, React JS,
-            Bootstrap, TAILWIND CSS, DAISYIU.
-          </p>
+        <h1 className="mt-8 text-2xl">Habilidades tecnicas</h1>
+       
+        <div className="flex flex-wrap  justify-center m-16">
+          {skill.skill.map((item) => {
+            return (
+              <div key={item.id} className="">
+                <div className="flex flex-row ">
+                  <div className="">
+                    <img
+                      className="w-20 animate-spin mr-3 flex-col "
+                      src={item.img}
+                      alt={item.name}
+                    />
+                  </div>                 
+                </div>
+              </div> //end
+            )
+          })}
+         
         </div>
         <div className="flex flex-wrap  justify-center m-16">
           {skill.skill.map((item) => {
             return (
-              <div className="flex justify-around flex-row ">
-                <div className="flex flex-row ">
-                  <div className="flex flex-row">
-                    <img
-                      id="icon_skill"
-                      className="w-20 animate-spin mr-3 flex-row "
-                      src={item.img}
-                      alt={item.name}
-                    />
+              <div key={item.id} className="">
+                <div>
+                  <h2> <strong>{item.name} :</strong> </h2>
+                    <p> {item.description}</p>
+                    <br/>
                   </div>
-                </div>
-              </div>
+              </div> //end
             )
           })}
+         
         </div>
+       
       </div>
     </>
   )
