@@ -8,7 +8,7 @@ function AboutMe(props) {
       <div className={Styles.container}>
         {/*********************** Title ***********************/}
         <div>
-          <h1 className="mt-8 text-2xl animate__animated animate__rotateInDownRight">Aboutme</h1>
+          <h1 className="mt-8 text-2xl animate__animated animate__rotateInDownRight">Sobre mi</h1>
         </div>
         <br />
         <div className={Styles.subContainer}>

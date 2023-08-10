@@ -11,6 +11,8 @@ export default function ProjectState() {
         <h1 className="m-11 text-4xl">Proyectos</h1>
         <p className='ml-5'>
         A lo largo de mi proceso de aprendizaje, he tenido la oportunidad de trabajar en diversos proyectos, donde he aplicado los conocimientos adquiridos y desarrollado mis habilidades. Me gustaría compartir algunos de estos proyectos contigo:            </p>
+        <br/>          
+        <hr/>
         {projectList.Projects.map((item) => {
           return (
             <div key={item.id} className="flex flex-row flex-wrap justify-center m-20">
