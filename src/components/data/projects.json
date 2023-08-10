@@ -2,7 +2,7 @@
     "Projects": [{
             "id": 1,
             "name": "Dezzer",
-            "description": "En este proyecto se realizo una replica de Deezer utilizando html, css ",
+            "description": " Me complace presentar un emocionante proyecto en el que recreé una versión personalizada de Deezer, utilizando HTML y CSS. Inspirado por la popular plataforma de streaming de música, este proyecto es un tributo al diseño y la creatividad, demostrando mi habilidad para capturar la estética visual y la experiencia de usuario única que caracteriza a Deezer. ",
             "img": "https://i.ibb.co/PTd1ngb/Deezer.png",
             "gitHub": "https://github.com/camilo7896/Replica-de-Deezer.git",
             "despliegue": "https://astonishing-salmiakki-f3b6d6.netlify.app/"
@@ -10,15 +10,15 @@
         {
             "id": 2,
             "name": "Domos Lago Muisca",
-            "description": "Sitio web para cliente, utilizando html,css y js.",
+            "description": "En mi rol de desarrollador web, tuve el privilegio de crear el sitio web Domos Lago Muisca para un cliente que ofrece una experiencia exclusiva de alojamiento en domos junto al Lago de Tota. Diseñé y desarrollé este sitio web para capturar la esencia de este resort mágico, que combina la belleza natural de Colombia con el lujo y la comodidad de los domos de última generación.",
             "img": "https://i.ibb.co/RSFgs4d/domos.png",
             "gitHub": "https://github.com/camilo7896/glamping.git",
-            "despliegue": "https:www.domoslagomuisca.com"
+            "despliegue": "https://joyful-kashata-1c0522.netlify.app/"
         },
         {
             "id": 3,
             "name": "Tetris",
-            "description": "Proyecto colaborativo usando Javascript, html, css",
+            "description": "Tetris Revolution es una aplicación de juego en compañía que he creado utilizando tecnologías web estándar como JavaScript, HTML y CSS. Esta versión personalizada del clásico juego Tetris ofrece una experiencia de juego entretenida y desafiante, completamente jugable en cualquier navegador web moderno.",
             "img": "https://i.ibb.co/kD2JjS0/tetris.png",
             "gitHub": "https://github.com/camilo7896/tetris_javascript.git",
             "despliegue": "https://preeminent-nasturtium-584174.netlify.app/"
@@ -26,7 +26,7 @@
         {
             "id": 4,
             "name": "Modificacion de sitio web",
-            "description": "En este proyecto se modificaron los estilos de de Css.",
+            "description": "Lideré el proceso de rediseño de la interfaz de usuario de un proyecto web, utilizando HTML y CSS para crear una experiencia visualmente atractiva y funcionalmente mejorada. Mi enfoque se centró en mejorar la usabilidad, la coherencia visual y la experiencia general del usuario.",
             "img": "https://i.ibb.co/Lxdn8Gp/dbz.png",
             "gitHub": "https://github.com/camilo7896/modificacion-de-sitio-web.git",
             "despliegue": "https://camilo7896.github.io/modificacion-de-sitio-web/#"
@@ -34,7 +34,7 @@
         {
             "id": 5,
             "name": "Rick and Morty",
-            "description": "Proyecto en curso. Consumió la API de Rick and Morty, usando Axios.",
+            "description": "Diseñé y desarrollé una emocionante aplicación utilizando React.js que se conecta con la API de Rick and Morty. Esta plataforma permite a los fans de la serie explorar y aprender más sobre los personajes, episodios y ubicaciones icónicas del universo Rick and Morty de una manera interactiva y envolvente.",
             "img": "https://i.ibb.co/Qv2FpTW/img-rick-and-morty.png",
             "gitHub": "https://github.com/camilo7896/Rick-and-Morty.git",
             "despliegue": "https://rococo-caramel-c33acf.netlify.app/"
@@ -42,10 +42,18 @@
         {
             "id": 6,
             "name": "Codery App",
-            "description": "El trabajo colaborativo como proyecto de grado para Programate Academy",
+            "description": "Como parte de un equipo de desarrollo, desempeñé un papel fundamental en el rediseño exitoso de la plataforma Codery App, construida en React.js. Mi contribución se centró en revitalizar la interfaz de usuario y la experiencia del usuario, mejorando significativamente la usabilidad y la estética visual.",
             "img": "https://i.ibb.co/rtC1kvm/Captura-desde-2023-01-26-21-28-45.png",
             "gitHub": "https://github.com/camilo7896/Rick-and-Morty.git",
             "despliegue": "https://coderyapp.netlify.app/"
+        },
+        {
+            "id": 7,
+            "name": "Le vin",
+            "description": " Este proyecto de comercio electrónico desarrollado en React.js presenta una plataforma de compra en línea con una funcionalidad de carrito de compras y una característica única de envío de productos a través de WhatsApp. Los usuarios pueden explorar una variedad de productos, agregarlos al carrito y revisar su selección antes de proceder al checkout.",
+            "img": "https://i.ibb.co/0qdt3W9/casillero-del-diablo-red-blend.jpg",
+            "gitHub": "https://github.com/camilo7896/Rick-and-Morty.git",
+            "despliegue": "https://visionary-tarsier-2b05ca.netlify.app/"
         }
     ]
 }
