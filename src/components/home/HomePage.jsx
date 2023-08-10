@@ -1,4 +1,5 @@
 import React from 'react'
+import 'animate.css';
 
 export function HomePage() {
   return (
@@ -11,7 +12,7 @@ export function HomePage() {
               className="max-w-sm rounded-lg shadow-2xl animate-bounce w-60"
             />
             <div>
-              <h1 className="text-5xl font-bold text-amber-400 mb-4">
+            <h1 class="text-5xl font-bold text-amber-400 mb-4 animate__animated animate__swing">
                 Hola ! mi nombres es Cristian Garcia
               </h1>
               <p className="py-6">front end developer</p>

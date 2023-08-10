@@ -1,5 +1,6 @@
 import React from 'react'
 import Styles from './aboutme.module.css'
+import 'animate.css';
 
 function AboutMe(props) {
   return (
@@ -7,18 +8,18 @@ function AboutMe(props) {
       <div className={Styles.container}>
         {/*********************** Title ***********************/}
         <div>
-          <h1 className="mt-8 text-2xl">Aboutme</h1>
+          <h1 className="mt-8 text-2xl animate__animated animate__rotateInDownRight">Aboutme</h1>
         </div>
         <br />
         <div className={Styles.subContainer}>
           {/********************Photo profile ***********************/}
           <div className={Styles.boxContent}>
             <div className="avatar">
-              <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 animate__animated animate__flip">
                 <img src="https://i.ibb.co/zb5Xh8H/Imagen2.png" />
               </div>
             </div>
-            <div className="mb-10">
+            <div className="mb-10 animate__animated animate__slideInUp">
           <a href="https://github.com/camilo7896" target="_blank">
             <button className="btn glass w-40 m-6">Github</button>
           </a>

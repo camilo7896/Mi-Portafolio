@@ -8,7 +8,7 @@ export default function ProjectState() {
   return (
     <>
       <div>
-        <h1 className="m-11 text-4xl">Projectos</h1>
+        <h1 className="m-11 text-4xl">Proyectos</h1>
         <p className='ml-5'>
         A lo largo de mi proceso de aprendizaje, he tenido la oportunidad de trabajar en diversos proyectos, donde he aplicado los conocimientos adquiridos y desarrollado mis habilidades. Me gustaría compartir algunos de estos proyectos contigo:            </p>
         {projectList.Projects.map((item) => {
